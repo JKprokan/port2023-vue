@@ -3,7 +3,6 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <dev>
     <h4>{{ status }}</h4>
-    <a v-for="i in data" :key="i">{{ i }}입니다</a>
   </dev>
 </template>
 
@@ -15,7 +14,6 @@ export default {
   data(){
     return{
       status:"안녕하세요 처음뵙겠습니다",
-      data:["A","B","C"]
     }
   },
   components: {
